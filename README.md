@@ -1,7 +1,5 @@
 # hello_cheetah
-Minimal "Hello World" example of a quadruped robot running in a bybullet simulation.
-
-This project is a minimal "hello world" style example of a quadruped robot running in a simulation.
+Minimal "Hello World" example of a quadruped robot in a bybullet simulation.
 
 The simulation is very minimal.  First, the Mini-Cheetah will appear in the air with its feet slightly above the floor.  The robot falls to the floor.  This shows how the simulation detects and handles collisions between solid objects.  (The floor and the robot’s feet are both solid.) Next, the robot lowers its body by bending at the knees.  This provides two things (1) example code to move a robot's joints and (2) that gravity continues to influence the robot, as the feet stay in contact with the floor and the body lowers.
 
